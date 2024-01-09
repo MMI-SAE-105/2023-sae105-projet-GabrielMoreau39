@@ -1,0 +1,26 @@
+.logo-footer {
+    height: 80px;
+    width: 80px;
+}
+.texte-footer {
+    color: white;
+}
+.texte-1-footer {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.logos-footer {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    background-color: #02548A;
+    height: 429px;
+    width: 100%;
+    padding: 10px;
+}
+.logo-mmi-footer {
+    width: 66px;
+    height: 47px;
+}
