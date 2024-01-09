@@ -3,7 +3,7 @@
     width: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .texte-footer {
     color: white;
@@ -25,9 +25,9 @@
 }
 footer {
     background-color: #02548A;
-    height: 429px;
     width: 100%;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .logo-mmi-footer {
     width: 66px;
