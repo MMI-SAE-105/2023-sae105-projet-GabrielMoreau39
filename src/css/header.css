@@ -9,3 +9,9 @@
 .logo-header {
     margin-left: 10px;
 }
+.titre-header {
+    color: white;
+    font-family: 'TorukSC', sans-serif;
+    text-decoration: none;
+    margin-top: 35px;
+}
