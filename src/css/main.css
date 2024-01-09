@@ -1,4 +1,40 @@
 img {
     max-width: 100%;
     display: flex;
-}   
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.titre-1 {
+    font-size: 75px;
+    font-family: 'TorukSC', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.section-1 {
+    background-color: #02548A;
+    width: 100%;
+}
+.ligne-1 {
+    align-items: center;
+    width: 296px;
+}
+.citation {
+    font-family: 'TorukSC', sans-serif;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fleche {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
