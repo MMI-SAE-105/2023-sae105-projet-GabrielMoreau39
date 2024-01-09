@@ -1,26 +1,37 @@
 .logo-footer {
     height: 80px;
     width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 .texte-footer {
     color: white;
+    margin-left: 10px;
 }
 .texte-1-footer {
     color: white;
     font-size: 16px;
     font-family: Arial, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .logos-footer {
     width: 40px;
     height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 footer {
     background-color: #02548A;
     height: 429px;
     width: 100%;
-    padding: 10px;
+    padding-bottom: 50px;
 }
 .logo-mmi-footer {
     width: 66px;
     height: 47px;
+    margin-left: auto;
+    margin-right: auto;
 }
