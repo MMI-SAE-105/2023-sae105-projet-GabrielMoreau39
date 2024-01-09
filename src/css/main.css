@@ -78,3 +78,42 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+.citation-2 {
+    font-family: 'TorukSC', sans-serif;
+    font-size: 22px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+.titre-2 {
+    font-family: 'TorukSC', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.titre-2-bis {
+    font-family: 'TorukSC', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #02548A;
+}
+.section-1-1 {
+    margin-top: 20px;
+}
+.ligne-1-article {
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
