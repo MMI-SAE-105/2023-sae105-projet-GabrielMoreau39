@@ -7,11 +7,14 @@
     background-color: #02548A;
 }
 .logo-header {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .titre-header {
     color: white;
     font-family: 'TorukSC', sans-serif;
     text-decoration: none;
     margin-top: 35px;
+}
+.menu-header {
+    margin-right: 15px;
 }
