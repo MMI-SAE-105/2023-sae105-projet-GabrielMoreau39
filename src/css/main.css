@@ -132,3 +132,7 @@ body {
 .video {
     display: flex;
 }
+.ligne-1-2 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
