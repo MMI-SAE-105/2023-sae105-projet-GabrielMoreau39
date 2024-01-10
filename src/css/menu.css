@@ -16,6 +16,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 .nav-toggle-bar,
 .nav-toggle-bar::before,
@@ -46,6 +47,8 @@ a {
     align-items: center;
     justify-content: center;
     transform: translateX(100vw);
+    transition: all 1s;
+    z-index: 1;
 }
 .menu-open .menu {
     transform: translateX(0);
