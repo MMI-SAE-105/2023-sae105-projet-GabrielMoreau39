@@ -28,7 +28,14 @@ footer {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
+.réseaux-sociaux {
+    display: flex;
+    margin-bottom: 10px;
+}
+
 .logo-mmi-footer {
     width: 66px;
     height: 47px;
