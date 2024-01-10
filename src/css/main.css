@@ -299,3 +299,67 @@ figcaption {
   height: 575px;
   width: auto;
 }
+.frise {
+    display: flex;
+    margin-bottom: 20px;
+}
+.img-frise {
+    width: 125px;
+    height: auto;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.img-frise-1 {
+    width: 125px;
+    height: auto;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 255px;
+}
+.img-frise-2 {
+    width: 125px;
+    height: auto;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 520px;
+}
+.img-frise-3 {
+    width: 125px;
+    height: auto;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 75px;
+}
+.texte-frise {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 70px;
+}
+.texte-frise-1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 70px;
+}
+.texte-frise-2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 70px;
+}
+.texte-frise-3 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 70px;
+}
