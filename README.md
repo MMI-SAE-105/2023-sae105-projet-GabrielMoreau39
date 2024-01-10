@@ -2,7 +2,7 @@
 - NOM : Moreau
 - PRÉNOM : Gabriel
 - URL du site : https://glowing-crumble-2d11c9.netlify.app
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/6alafee7gWYqmvDI443o8q/Maquettes-projet-individuel-%E2%80%94-pr%C3%A9nom-NOM-(Copy)?type=design&node-id=1774%3A1001&mode=design&t=iKD5DIy0n7p64o8e-1
 
 # Structure de départ pour le projet individuel.
 
