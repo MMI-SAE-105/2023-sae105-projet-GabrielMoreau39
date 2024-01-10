@@ -185,3 +185,117 @@ body {
 .msg-formulaire {
     margin-left: 25px;
 }
+* {
+    box-sizing: border-box; /* change le box model */
+}
+h1{
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #084368;
+    color: #fff;
+}
+img {
+    max-width: 100%; /* image responsive, largeur maxi */
+    height: auto; /* hauteur "auto" */
+}
+
+body {
+    background-image: url("../img/autocollant-one-piece-jolly-roger.jpeg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carrousel_parent-ecrans {
+    display: flex; /* aligne horizontalement les enfants */
+    width: 100%;/* largeur du parent */  
+    max-width: 400px;
+    height: auto;
+    overflow-x: scroll; /* permet de scroller horizontalement */
+    scroll-behavior: smooth; /* animation de défilement */
+    scroll-snap-type: x mandatory; /* permet de scroller par blocs */
+    margin-bottom: 20px;
+}
+.carrousel_ecran {
+    width: 100%;  /* largeur du parent pour chaque enfant */
+    flex: none; /* permet de garder toute la largeur du parent */
+    scroll-snap-align: start; /* aligne les enfants par blocs */
+    border-radius: 0.5rem;
+}
+.carrousel_ecran figure {
+    margin: 0; /* enlève les marges par défaut */
+    height : auto;
+}
+.carrousel {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .carrousel_btn {
+    position: absolute;
+    top: 25%;
+    top: calc(
+      min(500px, 100vw) / 16 * 9 / 2 + 1rem
+    ); /* centre verticalement ~50% vertical */
+    transform: translateY(-50%); /* methode du point mort */
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    top: 42.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .carrousel_btn-avant {
+    left: 10px;
+    z-index: 1;
+  }
+  
+  .carrousel_btn-apres {
+    right: -10px;
+    z-index: 1;
+  }
+  .caroussel_liste-liens {
+    display: flex; /* aligns children horizontally */
+    justify-content: center; /* centers children horizontally */
+    margin: 0; /* removes default margins */
+    padding: 0; /* removes default padding */
+    list-style: none; /* removes default bullets */
+    gap: 1rem; /* adds space between children */
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.caroussel_lien.actif {
+    background-color: #4ca4da;
+}
+.caroussel_lien {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #084368;
+    color: #fff;
+    text-decoration: none;
+}
+.caroussel_lien:hover {
+    background-color: #4ca4da;
+}
+figcaption {
+    text-align: center;
+    font-style: Bold;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #084368;
+    color: #fff;
+    text-decoration: none;
+}
+.img-carroussel {
+  height: 575px;
+  width: auto;
+}

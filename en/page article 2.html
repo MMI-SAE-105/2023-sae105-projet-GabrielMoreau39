@@ -68,6 +68,55 @@
         <img class="img-articles" src="/public/img/bande-annonce.webp" alt="">
         </a>
         <p class="titre-4-bis">OTHER FILMS</p>
+        <div class="carrousel" x-data="{
+            hrefCourant: '#ecran-1',
+            }">
+            <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
+            @click="$refs.parent.scrollBy(-$refs.parent.clientWidth, 0)">
+                &lt;
+            </button>
+            <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"
+            @click="$refs.parent.scrollBy($refs.parent.clientWidth, 0)">
+                >
+            </button>
+        <div class="carrousel_parent-ecrans" x-ref="parent"
+        @scroll.debounce.250ms.passive="
+        hrefCourant = '#'+
+                          [...$refs.parent.children]
+                           .find(e=>e.getBoundingClientRect().x>=0)
+                           .id
+                                             "
+            >
+            
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img class="img-carroussel" src="/public/img/image 37.webp" alt="image ecran 1">
+                    <figcaption>Avatar 2: The Way of Water
+                        2022</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-2" class="carrousel_ecran">
+                <figure>
+                    <img class="img-carroussel" src="/public/img/image 38.webp" alt="image ecran 2">
+                    <figcaption>Titanic
+                        1997</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img class="img-carroussel" src="/public/img/image 39.webp" alt="image ecran 3">
+                    <figcaption>Terminator
+                        1984</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-4" class="carrousel_ecran">
+                <figure>
+                    <img class="img-carroussel" src="/public/img/image 40.webp" alt="image ecran 4">
+                    <figcaption>Sanctum
+                        2011</figcaption>
+                </figure>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <a href="/en/index.html">
